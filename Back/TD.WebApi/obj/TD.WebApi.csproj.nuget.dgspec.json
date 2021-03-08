@@ -1,0 +1,213 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\WORKSTATION\\LAB\\DOTNET\\TodoListApi\\TodoList\\Back\\TD.WebApi\\TD.WebApi.csproj": {}
+  },
+  "projects": {
+    "D:\\WORKSTATION\\LAB\\DOTNET\\TodoListApi\\TodoList\\Back\\TD.Core\\TD.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\WORKSTATION\\LAB\\DOTNET\\TodoListApi\\TodoList\\Back\\TD.Core\\TD.Core.csproj",
+        "projectName": "TD.Core",
+        "projectPath": "D:\\WORKSTATION\\LAB\\DOTNET\\TodoListApi\\TodoList\\Back\\TD.Core\\TD.Core.csproj",
+        "packagesPath": "C:\\Users\\diego\\.nuget\\packages\\",
+        "outputPath": "D:\\WORKSTATION\\LAB\\DOTNET\\TodoListApi\\TodoList\\Back\\TD.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\diego\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\WORKSTATION\\LAB\\DOTNET\\TodoListApi\\TodoList\\Back\\TD.Infra\\TD.Infra.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\WORKSTATION\\LAB\\DOTNET\\TodoListApi\\TodoList\\Back\\TD.Infra\\TD.Infra.csproj",
+        "projectName": "TD.Infra",
+        "projectPath": "D:\\WORKSTATION\\LAB\\DOTNET\\TodoListApi\\TodoList\\Back\\TD.Infra\\TD.Infra.csproj",
+        "packagesPath": "C:\\Users\\diego\\.nuget\\packages\\",
+        "outputPath": "D:\\WORKSTATION\\LAB\\DOTNET\\TodoListApi\\TodoList\\Back\\TD.Infra\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\diego\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\WORKSTATION\\LAB\\DOTNET\\TodoListApi\\TodoList\\Back\\TD.Core\\TD.Core.csproj": {
+                "projectPath": "D:\\WORKSTATION\\LAB\\DOTNET\\TodoListApi\\TodoList\\Back\\TD.Core\\TD.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\WORKSTATION\\LAB\\DOTNET\\TodoListApi\\TodoList\\Back\\TD.WebApi\\TD.WebApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\WORKSTATION\\LAB\\DOTNET\\TodoListApi\\TodoList\\Back\\TD.WebApi\\TD.WebApi.csproj",
+        "projectName": "TD.WebApi",
+        "projectPath": "D:\\WORKSTATION\\LAB\\DOTNET\\TodoListApi\\TodoList\\Back\\TD.WebApi\\TD.WebApi.csproj",
+        "packagesPath": "C:\\Users\\diego\\.nuget\\packages\\",
+        "outputPath": "D:\\WORKSTATION\\LAB\\DOTNET\\TodoListApi\\TodoList\\Back\\TD.WebApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\diego\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\WORKSTATION\\LAB\\DOTNET\\TodoListApi\\TodoList\\Back\\TD.Core\\TD.Core.csproj": {
+                "projectPath": "D:\\WORKSTATION\\LAB\\DOTNET\\TodoListApi\\TodoList\\Back\\TD.Core\\TD.Core.csproj"
+              },
+              "D:\\WORKSTATION\\LAB\\DOTNET\\TodoListApi\\TodoList\\Back\\TD.Infra\\TD.Infra.csproj": {
+                "projectPath": "D:\\WORKSTATION\\LAB\\DOTNET\\TodoListApi\\TodoList\\Back\\TD.Infra\\TD.Infra.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[5.0.3, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
